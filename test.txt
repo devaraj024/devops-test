@@ -1,0 +1,6 @@
+(patern 1)
+1234
+devara
+going off
+to print the lines
+(patern 2)

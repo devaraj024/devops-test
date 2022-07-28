@@ -1,0 +1,54 @@
+    1  clear
+    2  open cd
+    3  where i am
+    4  ls
+    5  clear
+    6  ls
+    7  vi class1.txt
+    8  pwd
+    9  cd ..
+   10  ls
+   11  mkdir
+   12  mkdir test1
+   13  clear
+   14  cd
+   15  cd ec
+   16  cd ec2-user
+   17  mkdir devrj
+   18  ls
+   19  pwd
+   20  cd devrj/
+   21  cd ..
+   22  mkdir -p devrj/san/de/a
+   23  cd a
+   24  cd de
+   25  cd devrj/
+   26  ls
+   27  cd san
+   28  ls
+   29  rm rf de
+   30  ls-lrt
+   31  ls -lrt
+   32  cd devrj
+   33  cd ../..
+   34  ls -lrt
+   35  touch class1.txt
+   36  touch class2.txt
+   37  ls -lrt
+   38  vi class1.txt
+   39  clear
+   40  pwd
+   41  ls
+   42  cd devrj/
+   43  ls
+   44  cd san
+   45  ls
+   46  man echo
+   47  cd ../..
+   48  pwd
+   49  touch text1.txt
+   50  vi text1.txt 
+   51  cat text1.txt 
+   52  man cat
+   53  history
+   54  history > history.txt
