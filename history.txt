@@ -52,3 +52,704 @@
    52  man cat
    53  history
    54  history > history.txt
+   55  vi history.txt 
+   56  clear
+   57  "these are the worked" >> history.txt 
+   58  wc -l history.txt 
+   59  wc -w history.txt 
+   60  wc -c history.txt 
+   61  ec
+   62  clear
+   63  less history.txt 
+   64  close
+   65  stop
+   66  disconnect
+   67  pwd
+   68  ls
+   69  ls -lrt
+   70  df kh
+   71  df -h
+   72  du -h
+   73  echo hi
+   74  echo hi >> text1.txt 
+   75  head -n history.txt 
+   76  head -1 history.txt 
+   77  head -% history.txt 
+   78  echo history.txt 
+   79  cat history.txt 
+   80  clear
+   81  wc -l history.txt 
+   82  head -10 text1.txt 
+   83  head -15 history.txt 
+   84  head -54 history.txt | tail -1
+   85  head -35 history.txt | tail -4
+   86  vi text1.txt 
+   87  clear
+   88  pwd
+   89  ls -lrt
+   90  man grep
+   91  clear
+   92  pwd
+   93  ls -lrt
+   94  cd
+   95  ls
+   96  pwd
+   97  man grep
+   98  clear
+   99  touch text3.txt
+  100  vi text3.txt 
+  101  cat text3.txt 
+  102  grep "this" text3.text
+  103  grep this text3.txt
+  104   grep -i this text3.text
+  105  grep -i this text3.txt
+  106  cd
+  107  cd ..
+  108  ls
+  109  cd ec2-user/
+  110  ls
+  111  grep this.*empty text3.txt
+  112  cat text3.txt 
+  113  grep ^t text3.txt 
+  114  grep -i ^t text3.txt 
+  115  grep $e text.txt
+  116  cd
+  117  toch text123.txt
+  118  touch text123.txt
+  119  vi text123.txt 
+  120  head 4 text123.txt 
+  121  head -8 text123.txt 
+  122  head -25 text123.txt | tail -3
+  123  clear
+  124  gpwd
+  125  pwd
+  126  grep -n one text123.txt 
+  127  ls
+  128  cat text123
+  129  vi text123.txt 
+  130  grep one text123.txt 
+  131  vi text123.txt 
+  132  grep jan text123.txt 
+  133  grep -i jan text123.txt 
+  134  grep -i -n jan text123.txt 
+  135  ls
+  136  grep -w 1 text123.txt 
+  137  touch dev123.txt
+  138  vi dev123.txt 
+  139  cat dev123.txt 
+  140  clear
+  141  grep -A 3 -i word dev123.txt 
+  142  grep -A 3 -1 example dev123.txt 
+  143  grep -A 3 -1 "example" dev123.txt
+  144  grep -A 3 -i example dev123.txt
+  145  grep -B 4 -i example dev123.txt 
+  146  grep -C 3 -i word dev123.txt 
+  147  clear
+  148  cd
+  149  ls -lrt
+  150  grep -r o
+  151  clear
+  152  grep -r is 
+  153  grep -r is.
+  154  grep -r -w is
+  155  grep -c is
+  156  c
+  157  pwq
+  158  pwd
+  159  ls -lt
+  160  man find
+  161  find .-empty
+  162  find /. -type f -empty
+  163  clear
+  164  find /. -type f -size +10K
+  165  find /. -type f -size +10mb
+  166  find /. -type f -size +10M
+  167  clear
+  168  touch test.txt
+  169  vi test.txt 
+  170  cat test.txt 
+  171  awk '(patern 1)' '(patern 1)' test.txt 
+  172  awk '/(patern 1)/,/(patern 2)/' test.txt
+  173  awk '/(patern 1)/{flage=1,next},/(patern 2)/{flag=0}' test.txt
+  174  awk '/(patern 1)/{flage=1,next},/(patern 2)/{flag=0} flag' test.txt
+  175  awk '/(patern 1)/,/(patern 2)/' test.txt |  clear
+  176   awk '/(patern 1)/,/(patern 2)/' test.txt | clear
+  177  cat test.txt 
+  178  awk '/(patern 1)/{f=1,next},/(patern 2)/{f=0}f test.txt
+  179  clear
+  180  clear
+  181  clear
+  182  cd
+  183  awk '/(patern 1)/{f=1,next},/(patern 2)/{f=0}f test.txt
+  184  clear
+  185  cd
+  186  clear
+  187  awk '/(patern 1)/{f=1,next},/(patern 2)/{f=0}f' test.txt
+  188  awk '/(patern 1)/{f=1,next} /(patern 2)/{f=0}f' test.txt
+  189   awk '/(patern 1)/{f=1;next} /(patern 2)/{f=0}f' test.txt
+  190  ls -lrt
+  191  mkrdir shell_scriping
+  192  mkdir shell_scriping
+  193  cd shell_scriping/
+  194  touch day01.sh
+  195  vi day01.sh 
+  196  cat day01.sh 
+  197  ./day01.sh 1 2
+  198  ls -lrt
+  199  chmod u+x dayo1.text
+  200  chmod u+x dayo1.sh
+  201  chmod u+x day01.sh
+  202  ls -lrt
+  203  ./day01.sh devaraj Athani
+  204  set -x day01.sh
+  205  vi day01.sh clear
+  206  clear
+  207  pwd
+  208  cd use0
+  209  clear
+  210  cat day01.sh cd
+  211  clear
+  212  pwd
+  213  ls -lrt
+  214  cd shell_scriping/
+  215  ls -lrt
+  216  ./day01.sh dev san
+  217  vi day01.sh 
+  218  ./day01.sh dev san
+  219  set -x day.sh
+  220  sh day01.sh clear
+  221  clear
+  222  cd
+  223  sh day01.sh dev dev
+  224  clear
+  225  $?
+  226  $$
+  227  clear
+  228  pwd
+  229  passwrd
+  230  passwords
+  231  password
+  232  clear
+  233  pwd
+  234  ls -lrt
+  235  vi shell_script.sh
+  236  clear
+  237  vi task13.sh
+  238  sh tesk123.sh 4 5
+  239  sh tesk13.sh 4 5
+  240  ls -lrt
+  241  sh task13.sh 2 4
+  242  vi task13.sh 
+  243  sh task13.sh 1 2
+  244  sh task13.sh 100 5558
+  245  clear
+  246  vi leapyear.sh
+  247  sh leapyear.sh 2020
+  248  logout
+  249  pwd
+  250  cd shell_scriping/
+  251  sh day.sh dev dev
+  252  sh day01.sh dev devv
+  253  vi day01.sh
+  254  sh day01.sh dev 23 athani
+  255  vi day01.sh 
+  256  sh day01.sh
+  257  vi numbertest.sh
+  258  sh numbertest.sh 5
+  259  vi numbertest.sh 
+  260  bash -x numbertest.sh 5
+  261  vi numbertest.sh 
+  262  bash -x numbertest.sh 5
+  263  vi numbertest.sh 
+  264  sh numbertest.sh 5
+  265  vi numbertest.sh 
+  266  sh numbertest.sh 5
+  267  vi numbertest.sh 
+  268  sh numbertest.sh 5
+  269  vi biggest_no.sh
+  270  cat biggest_no.sh 
+  271  sh biggest_no.sh 
+  272  bash -x biggest_no.sh 
+  273  vi
+  274  vi biggest_no.sh 
+  275  sh biggest_no.sh 24 35
+  276  bash -x biggest_no.sh 
+  277  vi biggest_no.sh 
+  278  sh biggest_no.sh 1 100000
+  279  clear
+  280  pwd
+  281  ls -lrt
+  282  cd shell_scriping/
+  283  ls -lrt
+  284  vi biggest3.sh
+  285  sh biggest3.sh 1 2 4
+  286  vi biggest3.sh
+  287  sh biggest3.sh 2 3 4
+  288  vi biggest3.sh
+  289  vi biggest3.sh 1 3 4
+  290  sh biggest3.sh 2 3 4
+  291  sh biggest3.sh 1 2 3 4 5
+  292  sh biggest3.sh 1 2 
+  293  ls -lrt
+  294  cat class2.txt 
+  295  ls -lrt
+  296  copy /.devar/ anil
+  297  ps -ef
+  298  vi test.sh
+  299  pwd
+  300  ls -lt
+  301  ls -lrt
+  302  clear
+  303  pwd
+  304  ls
+  305  man copy
+  306  man cp
+  307  ls -lrt
+  308  cp -i class2.txt dev.txt
+  309  ls -lrt
+  310  vi leapyear.sh 
+  311  vi task13.sh 
+  312  vi filecheck.sh
+  313  clear
+  314  pwd
+  315  cd shell_scriping/
+  316  vi file_or_Directry.sh 
+  317  sh file_or_Directry.sh 
+  318  vi file_or_Directry.sh 
+  319  sh file_or_Directry.sh 
+  320  clear
+  321  cd ..
+  322  pwd
+  323  ls -lrt
+  324  cd shell_scriping/
+  325  pwd
+  326  sh file_or_Directry.sh 
+  327  cp /home/ec2-user/dev.txt /home/ec2-user/shell_scriping
+  328  ls -lrt
+  329  sh file_or_Directry.sh 
+  330  clear
+  331  vi try1.sh
+  332  sh try1.sh 
+  333  vi try1.sh 
+  334  cd ..
+  335  ls lrt
+  336  ls -lrt
+  337  cd shell_scriping/
+  338  ls -lrt
+  339  vi numbertest.sh 
+  340  vi day01.sh 
+  341  vi try1.sh 
+  342  sh try1.sh 
+  343  vi try1.sh 
+  344  sh try1.sh 
+  345  vi try1.sh 
+  346  sh try1.sh 1 2 3
+  347  vi try1.sh 
+  348  sh try1.sh  1 2 3
+  349  vi try1.sh 
+  350  sh try1.sh  1 2 3
+  351  vi try1.sh 
+  352  sh try1.sh 
+  353  vi try1.sh 
+  354  sh try1.sh 
+  355  sleep
+  356  clear
+  357  clear
+  358  pwd
+  359  ls -lrt
+  360  cd shell_scriping/
+  361  ls -lrt
+  362  clear
+  363  pwd
+  364  cd shell_scriping/
+  365  vi file_or_Directry.sh
+  366  bash x file_or_Directry.sh 
+  367  sh file_or_Directry.sh
+  368  vi file_or_Directry.sh 
+  369  sh file_or_Directry.sh 
+  370  vi file_or_Directry.sh 
+  371  sh file_or_Directry.sh 
+  372  ls -lrt
+  373  sh file_or_Directry.sh biggest3.sh
+  374  vi file_or_Directry.sh 
+  375  sh file_or_Directry.sh day01.sh
+  376  man sh
+  377   man bash x
+  378  vi file_or_Directry.sh 
+  379  pwd
+  380  cd shell_scriping/
+  381  ls -lrt
+  382  vi file_or_Directry.sh 
+  383  clear
+  384  ls -lrt
+  385  cd ..
+  386  ls -lrt
+  387  vi disk_space.sh 
+  388  sh disk_space.sh 
+  389  vi disk_space.sh 
+  390  sh disk_space.sh 
+  391  vi disk_space.sh 
+  392  man awk
+  393  vi disk_space.sh 
+  394  sh disk_space.sh 
+  395  vi disk_space.sh 
+  396  sh disk_space.sh 
+  397  vi disk_space.sh 
+  398  sh disk_space.sh 
+  399  vi disk_space.sh 
+  400  sh disk_space.sh 
+  401  vi disk_space.sh 
+  402  sh disk_space.sh 
+  403  vi disk_space.sh 
+  404  sh disk_space.sh 
+  405  vi disk_space.sh 
+  406  sh disk_space.sh 
+  407  vi disk_space.sh 
+  408  clear
+  409  man mail
+  410  man mailx
+  411  vi disk_space.sh 
+  412  sh disk_space.sh 
+  413  vi disk_space.sh 
+  414  sh disk_space.sh 
+  415  vi disk_space.sh 
+  416  sh disk_space.sh 
+  417  vi disk_space.sh 
+  418  sh disk_space.sh 
+  419  cp -i disk_space.sh free.sh
+  420  ls -lrt
+  421  clear
+  422  pwd
+  423  ls -lrt
+  424  dh -hk .
+  425  df -hk .
+  426  df -hk. | awk -d " " -f5
+  427   df -hk. | awk '{print $2}'
+  428  df -hk . | awk -d " " -f5
+  429  df -hk . | awk '{print $2}'
+  430  df -hk . | awk '{print $5}' | tail -1
+  431  vi disk_space.sh
+  432  sh dish_space.sh
+  433  sh disk_space.sh 
+  434  vi disk_space.sh 
+  435  sh disk_space.sh 
+  436  vi disk_space.sh 
+  437  sh disk_space.sh 
+  438  vi disk_space.sh 
+  439  sh disk_space.sh 
+  440  vi disk_space.sh 
+  441  sh disk_space.sh 
+  442  vi disk_space.sh 
+  443  sh disk_space.sh 
+  444  vi disk_space.sh 
+  445  clear
+  446  vi disk_space.sh 
+  447  sh disk_space.sh 
+  448  vi disk
+  449  vi disk_space.sh 
+  450  sh disk_space.sh 
+  451  vi disk_space.sh 
+  452  sh disk_space.sh 
+  453  vi disk_space.sh 
+  454  uptime
+  455  cd shell_scriping/
+  456  vi script-to-check.sh 
+  457  cd..
+  458  cd ..
+  459  ls -lrt
+  460  pwd
+  461  cd shell_scriping/
+  462  sh script-to-check.sh 
+  463  vi script-to-check.sh 
+  464  sh script-to-check.sh 
+  465  vi script-to-check.sh 
+  466  sh scri
+  467  sh script-to-check.sh 
+  468  man cronetab
+  469  crontab
+  470  man date
+  471  clear
+  472  clear
+  473  pwd
+  474  ls -lrt
+  475  cat disk_space.sh 
+  476  chmod u+x disk_space.sh 
+  477  ls -lrt
+  478  sh disk_space.sh 
+  479  bash -x disk_space.sh 
+  480  vi disk_space.sh 
+  481  $date
+  482  date
+  483  pwd
+  484  cd shell_scriping/
+  485  sh script-to-check.sh 
+  486  cd shell_scriping
+  487  vi script-to-check.sh 
+  488  sh script-to-check.sh 
+  489  ls -lrt
+  490  pwd
+  491  /home/ec2-user/shell_scriping/home/ec2-user/shell_scriping
+  492  sh script-to-check.sh 
+  493  vi script-to-check.sh 
+  494  pwd
+  495  sh script-to-check.sh 
+  496  clear
+  497  password
+  498  passwd
+  499  cd  /etc/shadow.
+  500  cd etc
+  501  ls -la
+  502  pwd
+  503  ls -lrt
+  504  cd shell_scriping/
+  505  ls -lrt
+  506  crontab -l
+  507  timedatectl
+  508  date
+  509  man timedatectl
+  510  timedatectl list-timezones 
+  511  timedatectl set-timezone 
+  512  sudo timedatectl set-timezone
+  513  clear
+  514  clear
+  515  pwd
+  516  cd shell_scriping/
+  517  vi while-loop-sum.sh
+  518  sh while-loop-sum.sh 
+  519  vi while-loop-sum.sh 
+  520  sh while-loop-sum.sh 4
+  521  vi while-loop-sum.sh 
+  522  sh while-loop-sum.sh 6
+  523  vi while-loop-sum.sh 
+  524  sh while-loop-sum.sh  8
+  525  vi while-loop-sum.sh 
+  526  sh while-loop-sum.sh 5
+  527  vi while-loop-sum.sh 
+  528  sh while-loop-sum.sh 10
+  529  df -hk
+  530  pwd
+  531  clar
+  532  clear
+  533  clear
+  534  ls -lrt
+  535  vi disk_space.sh 
+  536  sh disk_space.sh 
+  537  vi disk_space.sh 
+  538  sh disk_space.sh 
+  539  vi disk_space.sh 
+  540  sh disk_space.sh 
+  541  vi disk_space.sh 
+  542  sh disk_space.sh 
+  543  vi disk_space.sh 
+  544  sh disk_space.sh 
+  545  clear
+  546  ls -lrt
+  547  cat dev.text
+  548  cat dev.txt
+  549  vi dev.txt
+  550  cat leapyear.sh 
+  551  cat leapyear.sh | wc -l
+  552  man cat
+  553  cat -n leapyear.sh 
+  554  cd shell_scriping/
+  555   vi To_print_work-char_of_given_file.sh
+  556  ls -lrt
+  557  sh To_print_work-char_of_given_file.sh numbertest.sh 
+  558  vi To_print_work-char_of_given_file.sh 
+  559  sh To_print_work-char_of_given_file.sh numbertest.sh
+  560  vi To_print_work-char_of_given_file.sh 
+  561   sh To_print_work-char_of_given_file.sh numbertest.sh
+  562  vi To_print_work-char_of_given_file.sh 
+  563   sh To_print_work-char_of_given_file.sh numbertest.sh
+  564  vi To_print_work-char_of_given_file.sh 
+  565   sh To_print_work-char_of_given_file.sh numbertest.sh
+  566  vi To_print_work-char_of_given_file.sh 
+  567   sh To_print_work-char_of_given_file.sh numbertest.sh
+  568  vi test.txt
+  569  cat test.txt | tail -n+2 | awk -f " " {print$NF}
+  570   cat test.txt | awk -f " " {print$NF}
+  571   cat test.txt | tail -n+2 | awk -f "" {print$NF}
+  572   cat test.txt | tail -n+2 | awk -f "" {print $NF}
+  573   cat test.txt | tail -n+2
+  574  cat test.txt | tail -n+2 | awk '{print $(NF)}'
+  575  vi Check-age-25.sh
+  576  vi Check-age-25.sh 
+  577  clear
+  578  ls -lrt
+  579  cd shell_scriping/
+  580  ls -lrt
+  581  vi Check-age-25.sh 
+  582  cd shell_scriping/
+  583  vi Check-age-25.sh 
+  584  sh Check-age-25.sh test.txt
+  585  vi Check-age-25.sh 
+  586  sh Check-age-25.sh test.txt 
+  587  vi Check-age-25.sh 
+  588  sh Check-age-25.sh test.txt 
+  589  vi Check-age-25.sh 
+  590  sh Check-age-25.sh test.txt 
+  591  vi Check-age-25.sh 
+  592  sh Check-age-25.sh test.txt 
+  593  vi Check-age-25.sh 
+  594  sh Check-age-25.sh test.txt 
+  595  vi Check-age-25.sh 
+  596  sh Check-age-25.sh test.txt 
+  597  vi Check-age-25.sh 
+  598  sh Check-age-25.sh test.txt 
+  599  clear
+  600  ls -lrt
+  601  vi display-No.sh
+  602  cd shell_scriping/
+  603  ls -lrt
+  604  vi display-no.sh
+  605  sh display-no.sh 
+  606  vi display-no.sh 
+  607  sh display-no.sh 
+  608  vi display-no.sh 
+  609  sh display-no.sh 10
+  610  vi display-no.sh 
+  611  sh display-no.sh 
+  612  vi display-no.sh 
+  613  sh display-no.sh 
+  614  vi display-no.sh 
+  615  sh display-no.sh 
+  616  vi dis
+  617  vi display-no.sh 
+  618  clear
+  619  cp display-no.sh display1.sh
+  620  ls -lrt
+  621  vi display1.sh
+  622  clear
+  623  cd shell_scriping/
+  624  ls -lrt
+  625  vi display1.sh 
+  626  sh display1.sh 
+  627  vi display1.sh 
+  628  sh display1.sh 
+  629  vi factorial.sh
+  630  sh factorial.sh 
+  631  vi factorial.sh 
+  632  sh factorial.sh 
+  633  vi factorial.sh 
+  634  sh factorial.sh 
+  635  vi factorial.sh 
+  636  sh factorial.sh 
+  637  vi factorial.sh 
+  638  cd shell_scriping/
+  639  ls-lrt
+  640  ls -lrt
+  641  vi factorial.sh 
+  642  cd shell_scriping/
+  643  vi factorial.sh 
+  644  sh factorial.sh 
+  645  vi factorial.sh 
+  646  sh factorial.sh 
+  647  vi facto
+  648  vi factorial.sh 
+  649  sh factorial.sh 
+  650  vi factorial.sh 
+  651  sh factorial.sh 
+  652  vi factorial.sh 
+  653  sh factorial.sh 
+  654  vi factorial.sh 
+  655  cp factorial.sh factorialforall.sh
+  656  vi factorialforall.sh 
+  657  clear
+  658  sh factorialforall.sh 1 2 3 4 
+  659  vi factorialforall.sh
+  660  sh ACTORIAL OF iS $FACT
+  661  sh factorialforall.sh 1 2 3 4 5 6 7
+  662  bash -x ACTORIAL OF iS $FACT
+  663  bash -x factorialforall.sh 1 2
+  664  bash -x factorialforall.sh 4
+  665  bash -x factorialforall.sh 2 3
+  666  vi factorialforall.sh 
+  667  sh factorialforall.sh 1 2 3 4
+  668  vi factorialforall.sh 
+  669  sh factorialforall.sh 
+  670  sh factorialforall.sh 1 2 3 4 5
+  671  sh factorialforall.sh vi factorialforall.sh 
+  672  vi factorialforall.sh 
+  673  sh factorialforall.sh 1 2 4 5
+  674  vi factorialforall.sh 
+  675  sh factorialforall.sh  1 2 3 4 5
+  676  vi factorialforall.sh 
+  677  clear
+  678  sh factorialforall.sh 1 2 3 4 5 6 7 8 9 10
+  679  clear
+  680  ls -lrt
+  681  vi factorialforall.sh 
+  682  vi add-two-files.sh
+  683  cd shell_scriping/
+  684  vi case1.sh
+  685  sh case1.sh
+  686  vi case1.sh
+  687  sh case1.sh
+  688  vi case1.sh
+  689  logoff
+  690  exit
+  691  clear
+  692  cd shell_scriping/
+  693  biggestofall.sh
+  694  vi biggestofall.sh
+  695  sh biggestofall.sh 1 2 3 4 5 6 7 8 0
+  696  vi biggestofall.sh 
+  697  sh biggestofall.sh 1 2 3
+  698  cd shell_scriping/
+  699  vi Rev.sh
+  700  sh Rev.sh devaraj
+  701  vi Rev.sh 
+  702  sh Rev.sh devaraj
+  703  vi Rev.sh 
+  704  sh Rev.sh Devaraj
+  705  ls -lrt
+  706  cat test.txt
+  707  cat test.txt | tail -1
+  708  vi print_Rev.sh
+  709  sh print_Rev.sh Rev.sh 
+  710  vi print_Rev.sh 
+  711  sh print_Rev.sh Rev.sh 
+  712  vi print_Rev.sh 
+  713  sh print_Rev.sh Rev.sh 
+  714  wc -l Rev.sh 
+  715  cat Rev.sh | wc -l
+  716  vi print_Rev.sh 
+  717  sh print_Rev.sh Rev.sh 
+  718  vi print_Rev.sh 
+  719  sh print_Rev.sh Rev.sh 
+  720  vi print_Rev.sh 
+  721  sh print_Rev.sh Rev.sh 
+  722  vi print_Rev.sh 
+  723  sh print_Rev.sh Rev.sh 
+  724  cat Rev.sh 
+  725  vi print_Rev.sh 
+  726  sh print_Rev.sh Rev.sh 
+  727  vi print_Rev.sh 
+  728  sh print_Rev.sh Rev.sh 
+  729  vi print_Rev.sh 
+  730  sh print_Rev.sh Rev.sh 
+  731  cd shell
+  732  cd shell_scriping/
+  733  ls -lrt
+  734  clear
+  735  vi pyramid.sh
+  736  ls -lrt
+  737  sh numbertest.sh 5
+  738  sh pyramid.sh 5
+  739  vi pyramid.sh 
+  740  sh pyramid.sh 5
+  741  vi pyramid.sh 
+  742  git init
+  743  ls -lart
+  744  git status
+  745  git add *
+  746  git status
+  747  git commit -m " adding scripts"
+  748  git remote -v
+  749  git push
+  750  git remote add original https://github.com/devaraj024/devops-test.git
+  751  git push
+  752  git push --set-upstream original master
+  753  git push
+  754  git push --set-upstream original master
+  755  history > history.txt
