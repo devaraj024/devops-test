@@ -1,0 +1,11 @@
+Docker Installation:
+
+sudo yum-config-manager --enable rhui-REGION-rhel-server-extras
+sudo yum -y install docker
+sudo usermod -a -G docker ec2-user
+docker version
+sudo systemctl start docker
+sudo systemctl status docker
+docker ps
+sudo chmod 666 /var/run/docker.sock
+docker ps
